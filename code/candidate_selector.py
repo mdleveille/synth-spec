@@ -11,7 +11,7 @@ from pysynphot import observation
 from pysynphot import spectrum
 
 # load wavelength grid	
-wave_hdu = fits.open('/Users/mleveille/synth_spec/flux_data/WAVE_PHOENIX-ACES-AGSS-COND-2011.fits')
+wave_hdu = fits.open('/Users/michael/synth_spec/flux_data/WAVE_PHOENIX-ACES-AGSS-COND-2011.fits')
 wave_data = wave_hdu[0].data         # in angstroms
 
 # manipulate parameters
